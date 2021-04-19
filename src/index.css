@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: dimgrey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.task{
+  background-color: dodgerblue;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.task button{
+  margin: 5px;
+  width: 90px;
+  align-self: center;
+  font-weight: 600;
+
+}
+
+.task:hover{
+
+  border-radius: 10px;
+}
+
+#submitBtn{
+  margin: 5px;
 }
